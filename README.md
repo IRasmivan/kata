@@ -5,6 +5,9 @@ Have picked 3 different Coding Challenge
 2. Enigma
 3. Nice Strings
 
+**4. My Own Contibution:**
+Have also added a GitHub Action to this project to auto-build on a push. This is to make sure that all the test cases are executed without any failure and the Java application can build with out any failure.
+
 
 ## 1. Connected Graph
 
