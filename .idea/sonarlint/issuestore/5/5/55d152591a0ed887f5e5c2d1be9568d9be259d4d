@@ -1,0 +1,11 @@
+
+hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ºéã58ĞğÊı/
+‹"squid:ClassVariableVisibilityCheckT"QMake value a static final constant or non-public and provide accessors if needed.(‚¯¥ùÿÿÿÿ8‡î‘ù/
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(‘”Õü8„¬ •/
+\squid:S1155">Use isEmpty() to check whether the collection is empty or not.(ƒ‰Ôë8É»ÿ/
+Gsquid:S1125")Remove the literal "false" boolean value.(ƒ‰Ôë8éÀÿ/
+"squid:ClassVariableVisibilityCheckV"UMake isVisited a static final constant or non-public and provide accessors if needed.(–º«•ûÿÿÿÿ8‰“’ÿ/
+Lsquid:S1125'")Remove the literal "false" boolean value.(‚õÆıÿÿÿÿ8ÖÓ»ÿ/
+isquid:CommentedOutCodeLine0"<This block of commented-out lines of code should be removed.(ˆº“Á8Óòû/
+\squid:S1155D">Use isEmpty() to check whether the collection is empty or not.(ˆÁ ²8£«ïù/
+†"squid:ClassVariableVisibilityCheckU"QMake edges a static final constant or non-public and provide accessors if needed.( ı®±8÷Ô‘ù/
