@@ -88,7 +88,7 @@ public class JEnigma {
         treeMap.putAll(map);
 
         /**
-         ** My Initial Try **
+         ** MY Thought!! **
             This question is missing some criteria, My view the below commented code is also a possible solution. Not
          sure whats the criteria for ordering the same length key's
 

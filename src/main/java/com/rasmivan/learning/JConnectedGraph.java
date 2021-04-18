@@ -56,7 +56,8 @@ public class JConnectedGraph {
         /**
          * Solution 2: My Preferred Solution so not Commented the method call for you evolution.
          */
-       return isConnectedOption2(source, target);
+        return isConnectedOption2(source, target);
+
     }
 
     /**
@@ -124,11 +125,10 @@ public class JConnectedGraph {
 
         if(!source.edges.isEmpty()){
             for (JNode jNode:source.edges) {
-                if(visited.stream().filter(vis -> vis.value == source.value && vis.isVisited == true).collect(Collectors.toList()).size() > 0){
+                if(visited.stream().filter(vis -> vis.value == source.value && vis.edges.get(0).value == jNode.value).collect(Collectors.toList()).size() > 0){
                     continue;
                 }
-                JNode visit = new JNode(source.value);
-                visit.isVisited = true;
+                JNode visit = new JNode(source.value, Collections.singletonList(jNode));
                 visited.add(visit);
 
                 if(isConnectedOption1(jNode, target, visited)){
