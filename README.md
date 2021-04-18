@@ -48,3 +48,7 @@ Please note I have added a wrapper variable for constants (patterns) so the code
 ## 4. GitHub Action
 
 Since this is a coding challenge, Was thinking about what more I code add to showcase my technical skills. So added a GitHub action to maven Build this project. This will trigger all the JUnit test cases (3 test cases, with multiple datasets) and is available in this repo for your review if you are wondering to check if the code build and all the test cases pass!
+
+## 5. Running the Code
+
+``` mvn test ```
